@@ -1,5 +1,5 @@
-#ifndef MERGE_SORT_H
-#define MERGE_SORT_H
+#ifndef MERGE_SORT_MERGE_SORT_H_
+#define MERGE_SORT_MERGE_SORT_H_
 
 #include <array>
 #include <iostream>
@@ -19,4 +19,4 @@ void print_array(float *arr, int arr_size);
 
 
 
-#endif // MERGE_SORT_H
+#endif // MERGE_SORT_MERGE_SORT_H_

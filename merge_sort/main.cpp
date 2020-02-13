@@ -1,6 +1,6 @@
 #include <iostream>
 #include <array>
-#include "merge_sort.h"
+#include "merge_sort\merge_sort.h"
 
 using namespace std;
 
