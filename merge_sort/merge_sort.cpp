@@ -1,6 +1,7 @@
 #include <iostream>
 #include <array>
-#include "C:\Users\BenK\Desktop\myproject\merge_sort\merge_sort.h"
+#include "merge_sort.h"
+//#include "C:\Users\BenK\Desktop\myproject\merge_sort\TestRepository\merge_sort\merge_sort.h"
 
 /*
     This function will take two subarrays and compare each element iteratively, placing the lesser of the two
