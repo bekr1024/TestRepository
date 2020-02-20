@@ -17,6 +17,8 @@ void merge_sort(float *arr, int startpoint, int endpoint);
 void merge_arrays(float *arr, int startpoint, int midpoint, int endpoint);
 void print_array(float *arr, int arr_size);
 
-
+void merge_sort(double *arr, int startpoint, int endpoint);
+void merge_arrays(double *arr, int startpoint, int midpoint, int endpoint);
+void print_array(double *arr, int arr_size);
 
 #endif // MERGE_SORT_MERGE_SORT_H_
