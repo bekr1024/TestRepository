@@ -1,14 +1,15 @@
 #include <iostream>
 #include <array>
-#include "C:\Users\BenK\Desktop\myproject\merge_sort\merge_sort.h"
+#include "merge_sort.h"
+//#include  "C:\Users\BenK\Desktop\myproject\merge_sort\TestRepository\merge_sort\merge_sort.h"
 
 using namespace std;
 
 int main()
 {
     std::cout << "int bytesize is: " << sizeof(int) << "\n\n";
-    int test_arr[] = {-3, 5, 0, 0, 1, -20, 42};
-    int arr_size = sizeof(test_arr)/sizeof(test_arr[0]);
+    double test_arr[] = {-22.01, 0.345, 2.222, 2.223, 2.2220, 14.0, -9.78};
+    double arr_size = sizeof(test_arr)/sizeof(test_arr[0]);
     std::cout << "Unsorted test array is:\n";
     print_array(test_arr, arr_size);
 
