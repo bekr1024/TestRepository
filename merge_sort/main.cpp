@@ -7,8 +7,8 @@ using namespace std;
 int main()
 {
     std::cout << "int bytesize is: " << sizeof(int) << "\n\n";
-    double test_arr[] = {-3, 5, 0, 0, 1, -20, 42};
-    double arr_size = sizeof(test_arr)/sizeof(test_arr[0]);
+    int test_arr[] = {-3, 5, 0, 0, 1, -20, 42};
+    int arr_size = sizeof(test_arr)/sizeof(test_arr[0]);
     std::cout << "Unsorted test array is:\n";
     print_array(test_arr, arr_size);
 
